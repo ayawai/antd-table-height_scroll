@@ -1,0 +1,11 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.ant-table-thead > tr > th,
+.ant-table-tbody > tr > td {
+  white-space: nowrap; /*全局设置td th*/
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
